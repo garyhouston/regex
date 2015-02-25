@@ -1,3 +1,7 @@
+New in alpha3.8p1: Bug fix for integer overflow in regcomp for excessively
+long pattern strings. CERT Vulnerability Note VU#695940. Found by Guido
+Vranken. - Gary Houston, 25 February 2015.
+
 New in alpha3.8:  Bug fix for signed/unsigned mixup, found and fixed
 by the FreeBSD folks.
 
